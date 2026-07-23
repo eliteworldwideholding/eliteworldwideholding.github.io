@@ -5,6 +5,7 @@
   "REGISTER_URL": "https://eliteworldwideholding.github.io/elitic/register",
   "PORTFOLIO_URL": "https://igor-m-martins.github.io/",
   "GRAVATAR_BASE_URL": "https://www.gravatar.com/avatar",
+  "GOOGLE_PLAY_SUBSCRIPTION_ID": "{ID PRODUCT}",
   "GOOGLE_CLIENT_ID": "744195024252-34hslbrj7c6teb21pktbj7d4japmr1f5.apps.googleusercontent.com",
   "GOOGLE_ANDROID_CLIENT_ID": "744195024252-7sk6v2i8o64pl7jup0t22q0a9od952bs.apps.googleusercontent.com",
   "GOOGLE_REDIRECT_URI": "https://eliteworldwideholding.pythonanywhere.com/elitic/api/auth/google/callback"

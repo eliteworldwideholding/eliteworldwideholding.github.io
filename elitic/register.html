@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elitic | Register Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-blue-500/30">
 
+    <!-- NAVBAR -->
+    <nav class="flex justify-between items-center py-6 px-6 md:px-12 max-w-6xl w-full mx-auto border-b border-slate-900">
+        <div class="text-2xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 font-mono">>_ Elitic AI</div>
+        
+        <div class="flex items-center gap-6">
+            <a href="index.html" class="text-xs md:text-sm font-mono text-slate-400 hover:text-blue-400 transition-colors duration-200">
+                &larr; Go Back
+            </a>
+        </div>
+    </nav>
+
+    <!-- MAIN FORM SECTION -->
+    <main class="flex-grow flex items-center justify-center py-12 px-6">
+        <div class="w-full max-w-md">
+            
+            <!-- BADGE HEADER -->
+            <div class="text-center mb-8">
+                <span class="inline-block bg-blue-950/60 border border-blue-900/50 text-blue-400 text-xs font-mono px-3 py-1 rounded-full mb-4 tracking-wide uppercase">
+                    ⚡ Early Access
+                </span>
+                <h1 class="text-3xl font-bold tracking-tight text-white mb-2">Create your account</h1>
+                <p class="text-sm text-slate-400">Start turning your readings into active learning.</p>
+            </div>
+
+            <!-- FORM CARD -->
+            <div class="bg-slate-900/40 border border-slate-900 p-8 rounded-2xl backdrop-blur-sm shadow-2xl shadow-blue-950/10 hover:border-slate-800 transition-all duration-300">
+                
+                <form action="https://seuusuario.pythonanywhere.com/register" method="POST" class="space-y-5">
+                    
+                    <!-- FULL NAME -->
+                    <div>
+                        <label for="fullName" class="block text-xs font-mono uppercase text-slate-400 mb-2">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="Your name"
+                            class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200">
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div>
+                        <label for="email" class="block text-xs font-mono uppercase text-slate-400 mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com"
+                            class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200">
+                    </div>
+
+                    <!-- PASSWORD -->
+                    <div>
+                        <label for="password" class="block text-xs font-mono uppercase text-slate-400 mb-2">Password</label>
+                        <input type="password" id="password" name="password" required placeholder="••••••••"
+                            class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200">
+                    </div>
+
+                    <!-- CLOUDFLARE TURNSTILE CAPTCHA -->
+                    <div class="pt-2 flex justify-center">
+                        <div class="cf-turnstile" 
+                             data-sitekey="0x4AAAAAAD8ZxzZpmZblOdcv" 
+                             data-theme="dark">
+                        </div>
+                    </div>
+
+                    <!-- TERMS -->
+                    <div class="flex items-center gap-3 pt-1">
+                        <input type="checkbox" id="terms" name="terms" required
+                            class="w-4 h-4 rounded border-slate-800 bg-slate-950 text-blue-600 focus:ring-blue-500/20 focus:ring-offset-slate-950">
+                        <label for="terms" class="text-xs text-slate-400 leading-snug">
+                            I agree to the <a href="/terms" class="text-blue-400 hover:underline">Terms of Service</a> and <a href="/privacy" class="text-blue-400 hover:underline">Privacy Policy</a>.
+                        </label>
+                    </div>
+
+                    <!-- SUBMIT BUTTON -->
+                    <button type="submit" 
+                        class="w-full mt-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium text-sm py-3 px-6 rounded-xl transition-all duration-200 shadow-lg shadow-blue-600/20 flex items-center justify-center gap-2 group">
+                        <span>Create My Account</span>
+                        <span class="group-hover:translate-x-1 transition-transform duration-200">&rarr;</span>
+                    </button>
+                </form>
+
+                <!-- LINK TO LOGIN -->
+                <div class="mt-6 pt-6 border-t border-slate-900 text-center">
+                    <p class="text-xs text-slate-500">
+                        Already have an account? 
+                        <a href="login.html" class="text-blue-400 hover:text-blue-300 font-medium transition-colors">Log in</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-8 px-6 text-center border-t border-slate-900 text-slate-600 text-xs font-mono max-w-6xl w-full mx-auto">
+        <p>&copy; 2026 Elite Worldwide Holding. Shipped cleanly, built independently.</p>
+    </footer>
+
+</body>
+</html>

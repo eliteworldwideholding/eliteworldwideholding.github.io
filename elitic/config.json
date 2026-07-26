@@ -1,0 +1,25 @@
+{
+  "API_BASE_URL": "https://eliteworldwideholding.pythonanywhere.com/elitic/api",
+  "EWH_WEBSITE_URL": "https://eliteworldwideholding.github.io",
+  "ELITIC_PAYMENT_URL": "https://eliteworldwideholding.github.io/elitic/pricing",
+  "REGISTER_URL": "https://eliteworldwideholding.github.io/elitic/register",
+  "PORTFOLIO_URL": "https://igor-m-martins.github.io/",
+  "GRAVATAR_BASE_URL": "https://www.gravatar.com/avatar",
+  "GOOGLE_PLAY_SUBSCRIPTION_ID": "{ID PRODUCT}",
+  "GOOGLE_CLIENT_ID": "744195024252-34hslbrj7c6teb21pktbj7d4japmr1f5.apps.googleusercontent.com",
+  "GOOGLE_ANDROID_CLIENT_ID": "744195024252-7sk6v2i8o64pl7jup0t22q0a9od952bs.apps.googleusercontent.com",
+  "GOOGLE_REDIRECT_URI": "https://eliteworldwideholding.pythonanywhere.com/elitic/api/auth/google/callback",
+
+  "maintenance": {
+    "enabled": false,
+    "title": "System Maintenance",
+    "message": "We are currently performing scheduled server upgrades to improve your experience. We will be back online shortly. Thank you for your patience!",
+    "allow_bypass_roles": ["admin", "tester"]
+  },
+  "app_version": {
+    "min_required": "1.0.0",
+    "latest": "1.5.0",
+    "force_update": false,
+    "update_url": "https://play.google.com/store/apps/details?id=com.elitic.app"
+  }
+}

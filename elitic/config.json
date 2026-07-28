@@ -1,5 +1,5 @@
 {
-  "API_BASE_URL": "​https://538d-177-86-107-162.ngrok-free.app/elitic/api",
+  "API_BASE_URL": "https://eliteworldwideholding.pythonanywhere.com/elitic/api",
   "EWH_WEBSITE_URL": "https://eliteworldwideholding.github.io",
   "ELITIC_PAYMENT_URL": "https://eliteworldwideholding.github.io/elitic/pricing",
   "REGISTER_URL": "https://eliteworldwideholding.github.io/elitic/register",
@@ -8,7 +8,7 @@
   "GOOGLE_PLAY_SUBSCRIPTION_ID": "{ID PRODUCT}",
   "GOOGLE_CLIENT_ID": "744195024252-34hslbrj7c6teb21pktbj7d4japmr1f5.apps.googleusercontent.com",
   "GOOGLE_ANDROID_CLIENT_ID": "744195024252-7sk6v2i8o64pl7jup0t22q0a9od952bs.apps.googleusercontent.com",
-  "GOOGLE_REDIRECT_URI": "​https://538d-177-86-107-162.ngrok-free.app/elitic/api/auth/google/callback",
+  "GOOGLE_REDIRECT_URI": "https://eliteworldwideholding.pythonanywhere.com/elitic/api/auth/google/callback",
 
   "maintenance": {
     "enabled": false,

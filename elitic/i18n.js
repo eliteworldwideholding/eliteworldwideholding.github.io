@@ -18,6 +18,29 @@ const translations = {
     privacy_s6_desc: "You have the right to request the complete deletion of your account identity and token usage history from our database at any time by contacting our support team or disconnecting your Google account permissions.",
     privacy_s7_title: "7. Contact Information",
     privacy_s7_desc: "If you have any questions regarding this Privacy Policy or how your authentication data is handled, feel free to reach out through our official platform channels.",
+    
+
+    register_go_back: "← Go Back",
+    register_early_access: "⚡ Early Access",
+    register_title: "Create your account",
+    register_subtitle: "Start turning your readings into active learning.",
+    register_fullname: "Full Name",
+    register_name_placeholder: "Your name",
+    register_email: "Email Address",
+    register_email_placeholder: "your@email.com",
+    register_password: "Password",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "I agree to the ",
+    register_agree_tos: "Terms of Service",
+    register_agree_and: " and ",
+    register_agree_privacy: "Privacy Policy",
+    register_submit: "Create My Account",
+    register_already_account: "Already have an account? ",
+    register_login: "Log in",
+    register_success_title: "Account Created!",
+    register_success_desc: "Your account has been registered successfully. You can now log in or open the app directly.",
+    register_open_app: "Open Elitic App",
+    register_close_and_login: "Close & Go to Login",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   pt: {
@@ -39,6 +62,29 @@ const translations = {
     privacy_s6_desc: "Você tem o direito de solicitar a exclusão completa do seu perfil e do histórico de uso de tokens do nosso banco de dados a qualquer momento, entrando em contato com a nossa equipe de suporte ou desconectando as permissões da sua conta do Google.",
     privacy_s7_title: "7. Informações de Contato",
     privacy_s7_desc: "Se você tiver alguma dúvida sobre esta Política de Privacidade ou sobre como seus dados de autenticação são tratados, sinta-se à vontade para entrar em contato através dos canais oficiais da nossa plataforma.",
+    
+
+    register_go_back: "← Voltar",
+    register_early_access: "⚡ Acesso Antecipado",
+    register_title: "Crie sua conta",
+    register_subtitle: "Comece a transformar suas leituras em aprendizado ativo.",
+    register_fullname: "Nome Completo",
+    register_name_placeholder: "Seu nome",
+    register_email: "Endereço de E-mail",
+    register_email_placeholder: "seu@email.com",
+    register_password: "Senha",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "Eu concordo com os ",
+    register_agree_tos: "Termos de Serviço",
+    register_agree_and: " e a ",
+    register_agree_privacy: "Política de Privacidade",
+    register_submit: "Criar Minha Conta",
+    register_already_account: "Já tem uma conta? ",
+    register_login: "Entrar",
+    register_success_title: "Conta Criada!",
+    register_success_desc: "Sua conta foi registrada com sucesso. Você já pode fazer login ou abrir o aplicativo diretamente.",
+    register_open_app: "Abrir App Elitic",
+    register_close_and_login: "Fechar e ir para Login",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   es: {
@@ -60,6 +106,29 @@ const translations = {
     privacy_s6_desc: "Tiene derecho a solicitar la eliminación completa de la identidad de su cuenta y del historial de uso de tokens de nuestra base de datos en cualquier momento contactando a nuestro equipo de soporte o revocando los permisos de su cuenta de Google.",
     privacy_s7_title: "7. Información de Contacto",
     privacy_s7_desc: "Si tiene alguna pregunta sobre esta Política de Privacidad o sobre cómo se manejan sus datos de autenticación, no dude en contactarnos a través de los canales oficiales de nuestra plataforma.",
+    
+
+    register_go_back: "← Volver",
+    register_early_access: "⚡ Acceso Anticipado",
+    register_title: "Crea tu cuenta",
+    register_subtitle: "Empieza a transformar tus lecturas en aprendizaje activo.",
+    register_fullname: "Nombre Completo",
+    register_name_placeholder: "Tu nombre",
+    register_email: "Correo Electrónico",
+    register_email_placeholder: "tu@email.com",
+    register_password: "Contraseña",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "Acepto los ",
+    register_agree_tos: "Términos de Servicio",
+    register_agree_and: " y la ",
+    register_agree_privacy: "Política de Privacidad",
+    register_submit: "Crear Mi Cuenta",
+    register_already_account: "¿Ya tienes una cuenta? ",
+    register_login: "Iniciar sesión",
+    register_success_title: "¡Cuenta Creada!",
+    register_success_desc: "Tu cuenta ha sido registrada con éxito. Ahora puedes iniciar sesión o abrir la aplicación directamente.",
+    register_open_app: "Abrir App Elitic",
+    register_close_and_login: "Cerrar e ir al Login",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   fr: {
@@ -72,7 +141,7 @@ const translations = {
     privacy_s2_title: "2. Traitement des textes, URLs et contenus",
     privacy_s2_desc: "Notre plateforme vous permet de traiter du texte personnalisé, des URLs web et des articles de presse à des fins d'apprentissage linguistique. Tout contenu soumis est envoyé directement et en temps réel aux modèles d'IA pour générer des traductions, explications ou exercices. <strong>Nous ne stockons, n'archivons ni ne conservons aucun texte, URL ou contenu d'apprentissage sur nos serveurs.</strong>",
     privacy_s3_title: "3. Jetons IA et utilisation des données",
-    privacy_s3_desc: "Les données de votre compte (ID utilisateur et e-mail) sont liées à un compteur de jetons pour suivre vos limites d'utilisation de l'IA. Les requêtes envoyées aux fournisseurs externes d'IA sont éphémères et utilisées exclusivement para fournir la réponse immédiate demandée.",
+    privacy_s3_desc: "Les données de votre compte (ID utilisateur et e-mail) sont liées à un compteur de jetons pour suivre vos limites d'utilisation de l'IA. Les requêtes envoyées aux fournisseurs externes d'IA sont éphémères et utilisées exclusivement pour fournir la réponse immédiate demandée.",
     privacy_s4_title: "4. Services tiers (Google Auth)",
     privacy_s4_desc: "Nous nous appuyons sur Google Authentication pour une connexion sécurisée. En utilisant notre application, vous interagissez également avec l'écosystème d'authentification de Google. Nous ne stockons aucun mot de passe ni identifiant de paiement sur nos infrastructures.",
     privacy_s5_title: "5. Conservation et sécurité des données",
@@ -81,6 +150,29 @@ const translations = {
     privacy_s6_desc: "Vous avez le droit de demander la suppression complète de votre identité de compte et de votre historique d'utilisation à tout moment en contactant notre équipe d'assistance ou en révoquant les autorisations de votre compte Google.",
     privacy_s7_title: "7. Coordonnées de contact",
     privacy_s7_desc: "Si vous avez des questions concernant cette politique de confidentialité ou le traitement de vos données, n'hésitez pas à nous contacter via les canaux officiels de la plateforme.",
+    
+
+    register_go_back: "← Retour",
+    register_early_access: "⚡ Accès Anticipé",
+    register_title: "Créer votre compte",
+    register_subtitle: "Transformez vos lectures en un apprentissage actif.",
+    register_fullname: "Nom Complet",
+    register_name_placeholder: "Votre nom",
+    register_email: "Adresse E-mail",
+    register_email_placeholder: "votre@email.com",
+    register_password: "Mot de passe",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "J'accepte les ",
+    register_agree_tos: "Conditions d'utilisation",
+    register_agree_and: " et la ",
+    register_agree_privacy: "Politique de Confidentialité",
+    register_submit: "Créer Mon Compte",
+    register_already_account: "Vous avez déjà un compte ? ",
+    register_login: "Se connecter",
+    register_success_title: "Compte Créé !",
+    register_success_desc: "Votre compte a été enregistré avec succès. Vous pouvez maintenant vous connecter ou ouvrir l'application directement.",
+    register_open_app: "Ouvrir l'application Elitic",
+    register_close_and_login: "Fermer et aller à la connexion",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   de: {
@@ -102,6 +194,29 @@ const translations = {
     privacy_s6_desc: "Sie haben das Recht, jederzeit die vollständige Löschung Ihres Kontos und Ihres Token-Nutzungsverlaufs zu beantragen, indem Sie unseren Support kontaktieren oder die Berechtigungen Ihres Google-Kontos widerrufen.",
     privacy_s7_title: "7. Kontaktinformationen",
     privacy_s7_desc: "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Verarbeitung Ihrer Authentifizierungsdaten haben, können Sie uns jederzeit über unsere offiziellen Kanäle erreichen.",
+    
+
+    register_go_back: "← Zurück",
+    register_early_access: "⚡ Frühzeitiger Zugang",
+    register_title: "Konto erstellen",
+    register_subtitle: "Verwandeln Sie Ihre Lektüre in aktives Lernen.",
+    register_fullname: "Vollständiger Name",
+    register_name_placeholder: "Ihr Name",
+    register_email: "E-Mail-Adresse",
+    register_email_placeholder: "ihre@email.com",
+    register_password: "Passwort",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "Ich stimme den ",
+    register_agree_tos: "Nutzungsbedingungen",
+    register_agree_and: " und der ",
+    register_agree_privacy: "Datenschutzerklärung",
+    register_submit: "Mein Konto Erstellen",
+    register_already_account: "Haben Sie bereits ein Konto? ",
+    register_login: "Anmelden",
+    register_success_title: "Konto Erstellt!",
+    register_success_desc: "Ihr Konto wurde erfolgreich registriert. Sie können sich jetzt anmelden oder die App direkt öffnen.",
+    register_open_app: "Elitic App Öffnen",
+    register_close_and_login: "Schließen & Zum Login",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   it: {
@@ -123,6 +238,29 @@ const translations = {
     privacy_s6_desc: "Hai il diritto di richiedere la cancellazione completa del tuo account e della cronologia dei token in qualsiasi momento contattando il supporto o revocando le autorizzazioni da Google.",
     privacy_s7_title: "7. Informazioni di Contatto",
     privacy_s7_desc: "Per qualsiasi domanda relativa a questa Informativa sulla Privacy o alla gestione dei dati, contattaci tramite i canali ufficiali.",
+    
+
+    register_go_back: "← Torna Indietro",
+    register_early_access: "⚡ Accesso Anticipato",
+    register_title: "Crea il tuo account",
+    register_subtitle: "Inizia a trasformare le tue letture in apprendimento attivo.",
+    register_fullname: "Nome Completo",
+    register_name_placeholder: "Il tuo nome",
+    register_email: "Indirizzo Email",
+    register_email_placeholder: "tua@email.com",
+    register_password: "Password",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "Accetto i ",
+    register_agree_tos: "Termini di Servizio",
+    register_agree_and: " e la ",
+    register_agree_privacy: "Informativa sulla Privacy",
+    register_submit: "Crea Il Mio Account",
+    register_already_account: "Hai già un account? ",
+    register_login: "Accedi",
+    register_success_title: "Account Creato!",
+    register_success_desc: "Il tuo account è stato registrato con successo. Ora puoi accedere o aprire direttamente l'applicazione.",
+    register_open_app: "Apri App Elitic",
+    register_close_and_login: "Chiudi e vai al Login",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   ru: {
@@ -144,6 +282,29 @@ const translations = {
     privacy_s6_desc: "Вы имеете право запросить полное удаление данных вашего аккаунта и истории использования токенов в любое время, обратившись в службу поддержки или отменив разрешения в аккаунте Google.",
     privacy_s7_title: "7. Контактная информация",
     privacy_s7_desc: "Если у вас есть вопросы относительно Политики конфиденциальности или обработки данных, свяжитесь с нами через официальные каналы связи.",
+    
+
+    register_go_back: "← Назад",
+    register_early_access: "⚡ Ранний Доступ",
+    register_title: "Создайте аккаунт",
+    register_subtitle: "Превратите чтение в активное обучение.",
+    register_fullname: "Полное Имя",
+    register_name_placeholder: "Ваше имя",
+    register_email: "Электронная Почта",
+    register_email_placeholder: "your@email.com",
+    register_password: "Пароль",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "Я согласен с ",
+    register_agree_tos: "Условиями использования",
+    register_agree_and: " и ",
+    register_agree_privacy: "Политикой конфиденциальности",
+    register_submit: "Создать Аккаунт",
+    register_already_account: "Уже есть аккаунт? ",
+    register_login: "Войти",
+    register_success_title: "Аккаунт Создан!",
+    register_success_desc: "Ваш аккаунт успешно зарегистрирован. Теперь вы можете войти или открыть приложение напрямую.",
+    register_open_app: "Открыть Приложение Elitic",
+    register_close_and_login: "Закрыть и Перейти к Входу",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   ja: {
@@ -152,8 +313,8 @@ const translations = {
     privacy_title: "プライバシーポリシー",
     privacy_last_updated: "最終更新日: 2026年7月",
     privacy_s1_title: "1. 収集する情報",
-    privacy_s1_desc: "当プラットフォームでは、ユーザーのプライバシー保護とデータ最小化を最優先しています。語学学習サービスを提供するため、Google OAuthを介した最低限の認証データ（基本プロフィール情報、メールアドレス、一意のユーザーID）のみを収集します。これらの情報は、アカウントの特定およびAIトークン消費制限の management のみに使用されます。",
-    privacy_s2_title: "2. テキスト、URL、コンテンツの processing",
+    privacy_s1_desc: "当プラットフォームでは、ユーザーのプライバシー保護とデータ最小化を最優先しています。語学学習サービスを提供するため、Google OAuthを介した最低限の認証データ（基本プロフィール情報、メールアドレス、一意のユーザーID）のみを収集します。これらの情報は、アカウントの特定およびAIトークン消費制限の管理のみに使用されます。",
+    privacy_s2_title: "2. テキスト、URL、コンテンツの処理",
     privacy_s2_desc: "当サービスでは、学習目的でテキスト、Web URL、ニュース記事を処理できます。送信されたすべてのコンテンツはリアルタイムでAIモデルに送信されます。<strong>当社のサーバー上に、送信されたテキスト、URL、または生成された学習コンテンツを保存、アーカイブ、保持することはありません。</strong>",
     privacy_s3_title: "3. AIトークンとデータの利用",
     privacy_s3_desc: "アカウントデータ（ユーザーIDおよびメール）は、AI利用制限を追跡するためのトークンカウンターにリンクされています。外部AIサービスプロバイダーに送信されるプロンプトは一時的なものであり、リクエストされた応答の生成にのみ使用されます。",
@@ -165,6 +326,29 @@ const translations = {
     privacy_s6_desc: "サポートチームに連絡するか、Googleアカウントのアクセス許可を解除することで、いつでもアカウント情報およびトークン利用履歴の完全削除を要求できます。",
     privacy_s7_title: "7. お問い合わせ",
     privacy_s7_desc: "本プライバシーポリシーや認証データの取り扱いに関するご質問は、公式サポート窓口よりお問い合わせください。",
+    
+
+    register_go_back: "← 戻る",
+    register_early_access: "⚡ 早期アクセス",
+    register_title: "アカウント作成",
+    register_subtitle: "読書を能動的な学習に変えましょう。",
+    register_fullname: "氏名",
+    register_name_placeholder: "お名前",
+    register_email: "メールアドレス",
+    register_email_placeholder: "your@email.com",
+    register_password: "パスワード",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "",
+    register_agree_tos: "利用規約",
+    register_agree_and: "と",
+    register_agree_privacy: "プライバシーポリシー",
+    register_submit: "アカウントを作成する",
+    register_already_account: "すでにアカウントをお持ちですか？ ",
+    register_login: "ログイン",
+    register_success_title: "アカウントが作成されました！",
+    register_success_desc: "アカウントの登録が正常に完了しました。ログインするか、直接アプリを開くことができます。",
+    register_open_app: "Elitic アプリを開く",
+    register_close_and_login: "閉じてログイン画面へ",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   ko: {
@@ -186,6 +370,29 @@ const translations = {
     privacy_s6_desc: "지원 팀에 문의하거나 Google 계정 권한을 해제하여 언제든지 계정 정보 및 토큰 사용 기록의 완전한 삭제를 요청할 수 있습니다.",
     privacy_s7_title: "7. 문의 정보",
     privacy_s7_desc: "본 개인정보 처리방침이나 인증 데이터 처리에 관한 질문이 있으시면 공식 플랫폼 채널을 통해 문의해 주시기 바랍니다.",
+    
+
+    register_go_back: "← 뒤로 가기",
+    register_early_access: "⚡ 얼리 액세스",
+    register_title: "계정 만들기",
+    register_subtitle: "독서를 능동적인 학습으로 바꾸어 보세요.",
+    register_fullname: "이름",
+    register_name_placeholder: "이름 입력",
+    register_email: "이메일 주소",
+    register_email_placeholder: "your@email.com",
+    register_password: "비밀번호",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "동의합니다: ",
+    register_agree_tos: "이용약관",
+    register_agree_and: " 및 ",
+    register_agree_privacy: "개인정보 처리방침",
+    register_submit: "계정 생성하기",
+    register_already_account: "이미 계정이 있으신가요? ",
+    register_login: "로그인",
+    register_success_title: "계정이 생성되었습니다!",
+    register_success_desc: "성공적으로 계정이 등록되었습니다. 이제 로그인하거나 앱을 직접 열 수 있습니다.",
+    register_open_app: "Elitic 앱 열기",
+    register_close_and_login: "닫기 및 로그인으로 이동",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   zh: {
@@ -196,17 +403,39 @@ const translations = {
     privacy_s1_title: "1. 我们收集的信息",
     privacy_s1_desc: "我们高度重视用户隐私与数据最小化原则。为了提供语言学习服务，我们仅通过 Google OAuth 收集必要的身份验证数据（如基本 OpenID 个人资料、电子邮件地址和唯一用户 ID）。这些信息仅用于识别您的账户并管理您的 AI 配额。",
     privacy_s2_title: "2. 文本、URL 与内容的处理",
-    privacy_s2_desc: "我们的平台允许您处理自定义文本、网页 URL 和新闻文章 responses。所有提交的内容均实时直接发送至 AI 模型，以生成翻译、解析或练习。<strong>我们不会在服务器上存储、归档或保留您提交 me 任何文本、URL 或生成的学习内容。</strong>",
+    privacy_s2_desc: "我们的平台允许您处理自定义文本、网页 URL 和新闻文章。所有提交的内容均实时直接发送至 AI 模型，以生成翻译、解析或练习。<strong>我们不会在服务器上存储、归档或保留您提交的任何文本、URL 或生成的学习内容。</strong>",
     privacy_s3_title: "3. AI 代币与数据使用",
     privacy_s3_desc: "您的账户数据（用户 ID 和电子邮件）与代币计数器绑定，用于跟踪您的 AI 使用配额。发送给外部 AI 服务提供商的提示词是即时性的，仅用于生成您请求的响应。",
     privacy_s4_title: "4. 第三方服务（Google 身份验证）",
     privacy_s4_desc: "我们依赖 Google 身份验证以确保登录安全。使用我们的应用即表示您与 Google 身份验证生态系统进行交互。我们不会在服务器上存储密码或二次支付凭证。",
-    privacy_s5_title: "5. 数据保留与 Operational 安全",
+    privacy_s5_title: "5. 数据保留与安全",
     privacy_s5_desc: "由于我们不在服务器上保留用户生成的文本、文章或浏览历史，因此数据泄露的隐私风险在设计上已被降至最低。存储的极简账户识别数据经过加密，并采用行业标准安全措施保护。",
     privacy_s6_title: "6. 用户权利与账户注销",
     privacy_s6_desc: "您有权随时通过联系我们的支持团队或撤销 Google 账户授权，要求从我们的数据库中彻底删除您的账户身份和代币使用记录。",
     privacy_s7_title: "7. 联系方式",
-    privacy_s7_desc: "如果您对本隐私政策或身份验证数据的处理方式有 Front End 疑问，请随时通过我们的官方渠道与我们联系。",
+    privacy_s7_desc: "如果您对本隐私政策或身份验证数据的处理方式有疑问，请随时通过我们的官方渠道与我们联系。",
+    
+    register_go_back: "← 返回",
+    register_early_access: "⚡ 抢先体验",
+    register_title: "创建您的账户",
+    register_subtitle: "开始将阅读转化为主动学习。",
+    register_fullname: "全名",
+    register_name_placeholder: "您的姓名",
+    register_email: "电子邮件地址",
+    register_email_placeholder: "your@email.com",
+    register_password: "密码",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "我同意 ",
+    register_agree_tos: "服务条款",
+    register_agree_and: " 和 ",
+    register_agree_privacy: "隐私政策",
+    register_submit: "创建我的账户",
+    register_already_account: "已有账户？ ",
+    register_login: "登录",
+    register_success_title: "账户已创建！",
+    register_success_desc: "您的账户已成功注册。您现在可以登录或直接打开应用程序。",
+    register_open_app: "打开 Elitic App",
+    register_close_and_login: "关闭并前往登录",
     footer_copy: "© 2026 Elite Worldwide Holding."
   },
   ar: {
@@ -218,16 +447,38 @@ const translations = {
     privacy_s1_desc: "نحن نعطي الأولوية لخصوصية المستخدم وتقليل جمع البيانات. لتقديم خدمات تعلم اللغات، نجمع فقط بيانات المصادقة الأساسية عبر Google OAuth (مثل معلومات الملف الشخصي الأساسية، والبريد الإلكتروني، ومعرف المستخدم الفريد). تُستخدم هذه المعلومات حصريًا للتعرف على حسابك وإدارة حصص استخدام الذكاء الاصطناعي.",
     privacy_s2_title: "2. معالجة النصوص والروابط والمحتوى",
     privacy_s2_desc: "تتيح لك منصتنا معالجة النصوص المخصصة وروابط الويب والمقالات الإخبارية لأغراض تعلم اللغة. يتم إرسال جميع المحتويات المجهزة مباشرة إلى نماذج الذكاء الاصطناعي في الوقت الفعلي. <strong>نحن لا نخزن أو نؤرشف أو نحتفظ بأي من النصوص أو الروابط أو المحتوى المنشأ على خوادمنا.</strong>",
-    privacy_s3_title: "3. رمك الذكاء الاصطناعي واستخدام البيانات",
+    privacy_s3_title: "3. رموز الذكاء الاصطناعي واستخدام البيانات",
     privacy_s3_desc: "ترتبط بيانات حسابك (معرف المستخدم والبريد الإلكتروني) بعداد الرموز لتتبع حدود الاستخدام. الأوامر المرسلة إلى مزودي خدمات الذكاء الاصطناعي مؤقتة وتُستخدم فقط لتقديم الاستجابة المطلوبة.",
     privacy_s4_title: "4. خدمات الطرف الثالث (مصادقة Google)",
     privacy_s4_desc: "نعتمد على مصادقة Google لتسجيل الدخول الآمن. باستخدام تطبيقنا، فإنك تتفاعل أيضًا مع نظام Google للمصادقة. نحن لا نخزن كلمة المرور أو بيانات الدفع على بنيتنا التحتية.",
     privacy_s5_title: "5. الاحتفاظ بالبيانات والأمان",
-    privacy_s5_desc: "نظرًا لأننا لا نقتفظ بالنصوص أو المقالات أو سجل التصفح على خوادمنا، يتم تقليل مخاطر تسريب البيانات تصميميًا. يتم تشفير بيانات تعريف الحساب الدنيا المخزنة وحمايتها باستخدام معايير الأمان القياسية.",
+    privacy_s5_desc: "نظرًا لأننا لا نحتفظ بالنصوص أو المقالات أو سجل التصفح على خوادمنا، يتم تقليل مخاطر تسريب البيانات تصميميًا. يتم تشفير بيانات تعريف الحساب الدنيا المخزنة وحمايتها باستخدام معايير الأمان القياسية.",
     privacy_s6_title: "6. حقوق المستخدم وحذف الحساب",
     privacy_s6_desc: "يحق لك طلب الحذف الكامل لهوية حسابك وسجل استخدام الرموز من قاعدة بياناتنا في أي وقت عن طريق الاتصال بفريق الدعم أو إلغاء أذونات حساب Google.",
     privacy_s7_title: "7. معلومات الاتصال",
     privacy_s7_desc: "إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه أو كيفية التعامل مع بيانات المصادقة الخاصة بك، فلا تتردد في التواصل معنا عبر قنوات المنصة الرسمية.",
+    
+    register_go_back: "العودة ←",
+    register_early_access: "⚡ وصول مبكر",
+    register_title: "إنشاء حسابك",
+    register_subtitle: "ابدأ بتحويل قراءاتك إلى تعلم نشط.",
+    register_fullname: "الاسم الكامل",
+    register_name_placeholder: "اسمك",
+    register_email: "البريد الإلكتروني",
+    register_email_placeholder: "your@email.com",
+    register_password: "كلمة المرور",
+    register_password_placeholder: "••••••••",
+    register_agree_text: "أوافق على ",
+    register_agree_tos: "شروط الخدمة",
+    register_agree_and: " و ",
+    register_agree_privacy: "سياسة الخصوصية",
+    register_submit: "إنشاء حسابي",
+    register_already_account: "لديك حساب بالفعل؟ ",
+    register_login: "تسجيل الدخول",
+    register_success_title: "تم إنشاء الحساب!",
+    register_success_desc: "تم تسجيل حسابك بنجاح. يمكنك الآن تسجيل الدخول أو فتح التطبيق مباشرة.",
+    register_open_app: "فتح تطبيق Elitic",
+    register_close_and_login: "إغلاق والانتقال لتسجيل الدخول",
     footer_copy: "© 2026 Elite Worldwide Holding."
   }
 };
@@ -244,13 +495,24 @@ function setLanguage(lang) {
       element.innerHTML = translations[lang][key];
     }
   });
+
+
+  localStorage.setItem('elitic_preferred_lang', lang);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   const selector = document.querySelector('.lang-selector');
+  
+  const savedLang = localStorage.getItem('elitic_preferred_lang');
+  const browserLang = navigator.language ? navigator.language.split('-')[0] : 'en';
+  const initialLang = savedLang || (translations[browserLang] ? browserLang : 'en');
+
   if (selector) {
+    selector.value = initialLang;
     selector.addEventListener('change', (e) => {
       setLanguage(e.target.value);
     });
   }
+
+  setLanguage(initialLang);
 });

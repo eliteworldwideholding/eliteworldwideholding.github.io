@@ -51,31 +51,30 @@
 
             <div class="bg-slate-900/40 border border-slate-900 p-8 rounded-2xl backdrop-blur-sm shadow-2xl shadow-blue-950/10 hover:border-slate-800 transition-all duration-300">
                 
-                <form action="https://eliteworldwideholding.pythonanywhere.com/elitic/api/register" method="POST" class="space-y-5">
-                    
+                <form id="registerForm" class="space-y-5">
                     <div>
                         <label for="fullName" data-i18n="register_fullname" class="block text-xs font-mono uppercase text-slate-400 mb-2">Full Name</label>
                         <input type="text" id="fullName" name="fullName" required data-i18n="register_name_placeholder" placeholder="Your name"
                             class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200">
                     </div>
-
+                
                     <div>
                         <label for="email" data-i18n="register_email" class="block text-xs font-mono uppercase text-slate-400 mb-2">Email Address</label>
                         <input type="email" id="email" name="email" required data-i18n="register_email_placeholder" placeholder="your@email.com"
                             class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200">
                     </div>
-
+                
                     <div>
                         <label for="password" data-i18n="register_password" class="block text-xs font-mono uppercase text-slate-400 mb-2">Password</label>
                         <input type="password" id="password" name="password" required data-i18n="register_password_placeholder" placeholder="••••••••"
                             class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200">
                     </div>
-
+                
                     <div class="cf-turnstile"
                             data-sitekey="0x4AAAAAAD8ZxzZpmZblOdcv"
                             data-theme="dark">
                     </div>
-
+                
                     <div class="flex items-center gap-3 pt-1">
                         <input type="checkbox" id="terms" name="terms" required
                             class="w-4 h-4 rounded border-slate-800 bg-slate-950 text-blue-600 focus:ring-blue-500/20 focus:ring-offset-slate-950">
@@ -83,14 +82,52 @@
                             <span data-i18n="register_agree_text">I agree to the </span><a href="/terms" data-i18n="register_agree_tos" class="text-blue-400 hover:underline">Terms of Service</a><span data-i18n="register_agree_and"> and </span><a href="/privacy" data-i18n="register_agree_privacy" class="text-blue-400 hover:underline">Privacy Policy</a>.
                         </label>
                     </div>
-
+                
                     <button type="submit"
                         class="w-full mt-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium text-sm py-3 px-6 rounded-xl transition-all duration-200 shadow-lg shadow-blue-600/20 flex items-center justify-center gap-2 group">
                         <span data-i18n="register_submit">Create My Account</span>
                         <span class="group-hover:translate-x-1 transition-transform duration-200">&rarr;</span>
                     </button>
                 </form>
-
+            
+                <script>
+                document.getElementById('registerForm').addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                
+                    const formData = new FormData(this);
+                    const payload = {
+                        fullName: formData.get('fullName'),
+                        email: formData.get('email'),
+                        password: formData.get('password'),
+                        'cf-turnstile-response': formData.get('cf-turnstile-response')
+                    };
+                
+                    try {
+                        const response = await fetch('https://eliteworldwideholding.pythonanywhere.com/elitic/api/register', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(payload)
+                        });
+                
+                        const result = await response.json();
+                
+                        if (response.ok && result.ok) {
+                            // Sucesso no registro
+                            window.location.href = '#success'; 
+                        } else {
+                            alert(result.message || 'Error creating account');
+                            if (window.turnstile) {
+                                turnstile.reset(); 
+                            }
+                        }
+                    } catch (err) {
+                        console.error(err);
+                        alert('Connection error. Please try again.');
+                    }
+                });
+                </script>
                 <div class="mt-6 pt-6 border-t border-slate-900 text-center">
                     <p class="text-xs text-slate-500">
                         <span data-i18n="register_already_account">Already have an account? </span>

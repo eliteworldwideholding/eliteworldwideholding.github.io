@@ -89,17 +89,17 @@
                         <span class="group-hover:translate-x-1 transition-transform duration-200">&rarr;</span>
                     </button>
                 </form>
-            
+                
                 <script>
                 document.getElementById('registerForm').addEventListener('submit', async function(e) {
                     e.preventDefault();
-                
                     const formData = new FormData(this);
+                    
                     const payload = {
-                        fullName: formData.get('fullName'),
+                        name: formData.get('fullName'),
                         email: formData.get('email'),
                         password: formData.get('password'),
-                        'cf-turnstile-response': formData.get('cf-turnstile-response')
+                        turnstile_token: formData.get('cf-turnstile-response')
                     };
                 
                     try {
@@ -114,17 +114,16 @@
                         const result = await response.json();
                 
                         if (response.ok && result.ok) {
-                            // Sucesso no registro
-                            window.location.href = '#success'; 
+                            window.location.href = '#success';
                         } else {
-                            alert(result.message || 'Error creating account');
+                            alert(result.message || 'Error processing registration.');
                             if (window.turnstile) {
-                                turnstile.reset(); 
+                                turnstile.reset();
                             }
                         }
-                    } catch (err) {
-                        console.error(err);
-                        alert('Connection error. Please try again.');
+                    } catch (error) {
+                        console.error('Error:', error);
+                        alert('Network error. Please try again.');
                     }
                 });
                 </script>

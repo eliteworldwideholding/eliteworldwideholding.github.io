@@ -1,7 +1,7 @@
 {
   "API_BASE_URL": "https://eliteworldwideholding.pythonanywhere.com/elitic/api",
   "EWH_WEBSITE_URL": "https://eliteworldwideholding.github.io",
-  "ELITIC_PAYMENT_URL": "https://eliteworldwideholding.github.io/elitic/pricing",
+  "ELITIC_PAYMENT_URL": "https://eliteworldwideholding.pythonanywhere.com/elitic/api/pricing",
   "REGISTER_URL": "https://eliteworldwideholding.github.io/elitic/register",
   "PORTFOLIO_URL": "https://igor-m-martins.github.io/",
   "GRAVATAR_BASE_URL": "https://www.gravatar.com/avatar",

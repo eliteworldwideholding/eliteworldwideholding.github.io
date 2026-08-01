@@ -31,9 +31,31 @@
 </head>
 <body>
     <iframe
+        id="elitic-iframe"
         src="https://eliteworldwideholding.pythonanywhere.com/elitic/api/pricing" 
         allow="payment"
         frameborder="0"
     ></iframe>
+
+    <script>
+        const hash = window.location.hash.substring(1);
+        const params = new URLSearchParams(hash);
+        const token = params.get('token');
+
+        const iframe = document.getElementById('elitic-iframe');
+
+        if (token) {
+            history.replaceState(null, "", window.location.pathname);
+        }
+
+        iframe.addEventListener('load', () => {
+            if (token) {
+                iframe.contentWindow.postMessage(
+                    { type: 'SET_TOKEN', token: token },
+                    'https://eliteworldwideholding.pythonanywhere.com'
+                );
+            }
+        });
+    </script>
 </body>
 </html>
